@@ -174,12 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LeanCache_Example" */;
 			buildPhases = (
-				EE14DC64E7D6BB66A3A38115 /* 📦 Check Pods Manifest.lock */,
+				EE14DC64E7D6BB66A3A38115 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9618E528A26700A517F0313D /* 📦 Embed Pods Frameworks */,
-				E79131052922DBF9380994B8 /* 📦 Copy Pods Resources */,
+				9618E528A26700A517F0313D /* [CP] Embed Pods Frameworks */,
+				E79131052922DBF9380994B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,12 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LeanCache_Tests" */;
 			buildPhases = (
-				C38362BBD23303E53BFF9D25 /* 📦 Check Pods Manifest.lock */,
+				C38362BBD23303E53BFF9D25 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				211DD498B0BBC8AFDEBB987E /* 📦 Embed Pods Frameworks */,
-				7B08B28BC19BE25B0D28CE8E /* 📦 Copy Pods Resources */,
+				211DD498B0BBC8AFDEBB987E /* [CP] Embed Pods Frameworks */,
+				7B08B28BC19BE25B0D28CE8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,14 +270,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		211DD498B0BBC8AFDEBB987E /* 📦 Embed Pods Frameworks */ = {
+		211DD498B0BBC8AFDEBB987E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,14 +285,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCache_Tests/Pods-LeanCache_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B08B28BC19BE25B0D28CE8E /* 📦 Copy Pods Resources */ = {
+		7B08B28BC19BE25B0D28CE8E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +300,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCache_Tests/Pods-LeanCache_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9618E528A26700A517F0313D /* 📦 Embed Pods Frameworks */ = {
+		9618E528A26700A517F0313D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,14 +315,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCache_Example/Pods-LeanCache_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38362BBD23303E53BFF9D25 /* 📦 Check Pods Manifest.lock */ = {
+		C38362BBD23303E53BFF9D25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,14 +330,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E79131052922DBF9380994B8 /* 📦 Copy Pods Resources */ = {
+		E79131052922DBF9380994B8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,14 +345,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCache_Example/Pods-LeanCache_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE14DC64E7D6BB66A3A38115 /* 📦 Check Pods Manifest.lock */ = {
+		EE14DC64E7D6BB66A3A38115 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

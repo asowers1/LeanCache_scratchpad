@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
-        //let mariah = ExampleObject(name: "Mariah", age: 21, favoriteLanguage: "Objective-C")
-        ExampleObjectCache().set(andrew)
+        let mariah = ExampleObject(name: "Mariah", age: 21, favoriteLanguage: "Objective-C")
+        let cache = ExampleObjectCache()
+        cache.set(andrew)
+        print(cache.get())
+        ExampleObjectCache().set(mariah)
         print(ExampleObjectCache().get())
     }
 
