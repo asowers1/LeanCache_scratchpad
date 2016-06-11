@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
+        //let mariah = ExampleObject(name: "Mariah", age: 21, favoriteLanguage: "Objective-C")
+        ExampleObjectCache().set(andrew)
+        print(ExampleObjectCache().get())
     }
 
     override func didReceiveMemoryWarning() {
