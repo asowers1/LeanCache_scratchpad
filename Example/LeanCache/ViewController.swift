@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         print(cache.get())
         ExampleObjectCache().set(mariah)
         print(ExampleObjectCache().get())
+        
+        let exampleObjects = [andrew, mariah]
+        
+        ExampleObjectCollectionCache().set(exampleObjects)
+        print(ExampleObjectCollectionCache().get())
     }
 
     override func didReceiveMemoryWarning() {

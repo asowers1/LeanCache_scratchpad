@@ -1,0 +1,22 @@
+PODS:
+  - LeanCache (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.2)
+
+DEPENDENCIES:
+  - LeanCache (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  LeanCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeanCache: b30f496e97dd3334163c1b944caf2b6289d9be8f
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+
+PODFILE CHECKSUM: 950d8c8fec9b120a72633c226c1f9d5c3cf2d085
+
+COCOAPODS: 1.0.1

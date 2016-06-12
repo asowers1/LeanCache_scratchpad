@@ -1,0 +1,22 @@
+{
+  "name": "LeanCache",
+  "version": "0.1.0",
+  "summary": "A short description of LeanCache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LeanCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "asowers1": "asow123@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LeanCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LeanCache/Classes/**/*"
+}

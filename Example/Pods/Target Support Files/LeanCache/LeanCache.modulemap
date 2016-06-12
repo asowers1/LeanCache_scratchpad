@@ -1,0 +1,6 @@
+framework module LeanCache {
+  umbrella header "LeanCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LeanCache_Example {
+  umbrella header "Pods-LeanCache_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
